@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git fetch --all --prune)",
+      "Bash(.specify/scripts/powershell/create-new-feature.ps1 -Json \"Phase I: Todo In-Memory Python Console App\nTarget audience: Developers exploring agentic development workflows for building console applications\nFocus: Command-line todo app with in-memory task storage, emphasizing the Agentic Dev Stack process\nSuccess criteria:\n\nImplements all 5 basic features: Add, Delete, Update, View, Mark Complete\nFollows clean code principles with readable, well-structured Python code\nAdheres to Agentic Dev Stack workflow: spec → plan → tasks → Claude Code implementation\nNo manual coding; all code generated via iterations and prompts\nRuns error-free in Python 3.13+ environment with UV-managed dependencies\n\nConstraints:\n\nLanguage: Python 3.13+ only, using UV for project setup and management\nStorage: In-memory data structures \\(e.g., lists or dictionaries\\), no persistence\nInterface: Console-based with interactive text input/output, no GUI\nDevelopment: Strictly no manual coding; use iterative prompts for generation\nTimeline: Complete within a short cycle \\(e.g., 1-3 days\\), focusing on process review\n\nNot building:\n\nData persistence or database integration\nWeb, GUI, or mobile interfaces\nAdvanced features like user authentication, deadlines, priorities, or sorting\nExternal libraries beyond standard Python \\(UV for setup only\\)\nDeployment, testing frameworks, or CI/CD pipelines\" -Number 1 -ShortName \"todo-console-app\")",
+      "Bash(python test_app.py)"
+    ]
+  }
+}
