@@ -63,13 +63,13 @@ export default function HomePage() {
       </header>
 
       {/* Hero Section */}
-      <main className="flex flex-1 items-center justify-center px-4">
+      <main className="flex flex-1 items-center justify-center px-4 py-16 sm:px-6 lg:px-8">
         <div className="max-w-2xl text-center">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
             Organize your tasks,{' '}
             <span className="text-blue-600">simplify your life</span>
           </h1>
-          <p className="mt-6 text-lg text-gray-600">
+          <p className="mt-6 text-lg text-gray-300">
             A modern task management application that helps you stay organized
             and productive. Create, manage, and complete tasks with ease.
           </p>
@@ -106,8 +106,8 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-4 text-lg font-medium text-gray-900">Create Tasks</h3>
-              <p className="mt-2 text-sm text-gray-600">
+              <h3 className="mt-4 text-lg font-medium text-white">Create Tasks</h3>
+              <p className="mt-2 text-sm text-gray-300">
                 Quickly add new tasks with titles and descriptions
               </p>
             </div>
@@ -127,8 +127,8 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-4 text-lg font-medium text-gray-900">Track Progress</h3>
-              <p className="mt-2 text-sm text-gray-600">
+              <h3 className="mt-4 text-lg font-medium text-white">Track Progress</h3>
+              <p className="mt-2 text-sm text-gray-300">
                 Mark tasks complete and see your progress at a glance
               </p>
             </div>
@@ -148,8 +148,8 @@ export default function HomePage() {
                   />
                 </svg>
               </div>
-              <h3 className="mt-4 text-lg font-medium text-gray-900">Secure Access</h3>
-              <p className="mt-2 text-sm text-gray-600">
+              <h3 className="mt-4 text-lg font-medium text-white">Secure Access</h3>
+              <p className="mt-2 text-sm text-gray-300">
                 Your tasks are private and protected with authentication
               </p>
             </div>
